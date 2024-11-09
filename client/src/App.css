@@ -1,0 +1,48 @@
+.app-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-container {
+  padding: 70px 50px;
+  border: 1px solid #824919;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: rgba(203,221,209,255);
+}
+
+.logo {
+  width: 220px;
+  height: 220px;
+}
+
+.register-title {
+  text-align: center;
+  background-color: rgba(203,221,209,255);
+  color: #824919;
+}
+
+.register-input {
+  display: block;
+  width: 220px;
+  padding: 7px 0;
+  margin: 7px auto;
+  border: 1px solid #824919;
+  border-radius: 3px;
+  background-color: white;
+}
+
+::placeholder {
+  color: #824919;
+  font-family: monospace;
+}
+
+.register-button {
+  padding: 2px 5px;
+  border: 1px solid #824919;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 15px;
+  background-color: white;
+}
